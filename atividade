@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem paranormal: Segredo na Floresta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(144, 238, 144);
+        }
+
+        header {
+            min-height: 80px;
+            background-color: rgb(45, 87, 44);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 1.2em;
+            color: white;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            transform: scale(1.2, 1.2);
+            color: rgb(144, 238, 144);
+            text-shadow: 0 0 6px rgba(45, 87, 44, 0.404);
+        }
+
+        .container {
+            margin: 5vw;
+        }
+
+        .mangas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        Personagem principal!
+        .manga {
+            box-shadow: 0 0 10px rgba(121, 0, 115, 0.397);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            gap: 10px;
+        }
+
+        .manga img {
+            height: 260px;
+            width: 180px;
+            object-fit: cover;
+        }
+        Personagem principal!
+        .manga p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            Ordem paranomal: Segredo na Floresta
+        </span>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Temporadas</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="container">
+            <div class="mangas">
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>Elizabeth Webber</h2>
+                        <p>Elizabeth “Liz” Webber é uma médica e cientista forense brasileira,
+                            residente de São Paulo. Em 2020, passou a atuar formalmente como
+                            membro e investigadora da Ordem da Verdade, sendo um dos agentes
+                            designados ao caso da Escola Nostradamus de Ensino Médio e, após o
+                            desaparecimento da primeira equipe apontada, ao caso de Carpazinha.
+                            Ela aparece na primeira e segunda temporada do rpg. Personagem principal!
+                        </p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>Joui Jouki</h2>
+                        <p>Joui "Joe" Jouki é um ginasta que nasceu em Tóquio, no Japão,
+                            acabou se mudando em algum periodo da sua vida para São Paulo. Foi
+                            designado ao Caso de Carpazinha após o desaparecimento da Equipe
+                            Kelvin, e se considera um aprendiz de Elizabeth Webber e Thiago Fritz,
+                            tendo conhecido os dois antes mesmo do caso. Personagem principal!</p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>Cesar Oliveira Cohen - Kaiser</h2>
+                        <p>Cesar Oliveira Cohen é um programador e hacker brasileiro, residente em
+                            São Paulo. Após se juntar à Ordem da Verdade, é um dos membros
+                            designados ao Caso de Carpazinha para investigar o desaparecimento
+                            da Equipe Kelvin, e finalizar o trabalho que eles haviam começado. Personagem principal!
+                        </p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>Thiago Fritz</h2>
+                        <p>Thiago Fritz é um jornalista que teve como motivação seguir na carreira
+                            por ter a oportunidade de escrever histórias de pessoas como o seu pai,
+                            Arnaldo Fritz, um renomado ator de sua época. Após a morte de seu pai,
+                            decidiu investigar ela a fundo e encontrou evidências de uma conexão
+                            entre ele e a Ordem da Verdade. Esse fato despertou seu interesse, e por
+                            suas qualidades de investigação acabou se vendo dentro dela. Personagem principal!
+                        </p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>Cristopher Cohen</h2>
+                        <p>Pai de César de Oliveira Cohen Ele era um ator e dublê estadunidense, conhecido por
+                            trabalho em filmes de ação no exterior, até que se mudou para o Brasil e formou uma
+                            família. Cristopher era um dos melhores amigos de Arnaldo Fritz, um dos agentes mais renomados da
+                            Ordo Realitas. Por conta de Arnaldo, ele teve seu primeiro contato com a Ordem e o paranormal, 
+                            mas evitou de entrar na organização para proteger a sua família. Personagem principal!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</body>
+
+</html>
