@@ -62,7 +62,7 @@
             gap: 20px;
             justify-content: space-around;
         }
-        Personagem principal!
+        Personagem principal
         .manga {
             box-shadow: 0 0 10px rgba(121, 0, 115, 0.397);
             padding: 20px;
@@ -78,7 +78,7 @@
             width: 180px;
             object-fit: cover;
         }
-        Personagem principal!
+        Personagem principal
         .manga p {
             text-align: justify;
         }
